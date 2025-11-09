@@ -1,4 +1,14 @@
-[tool.pytest.ini_options]
-addopts = '-v'
-testpaths = ['tests']
-
+[project]
+name = "merlin-datawizard"
+version = "0.1.0"
+description = "Automated data-preprocessing suite for Data Scientists."
+readme = "README.md"
+authors = [
+    { name="Parisa Mohammadzadeh", email="Shahpari2kht@gmail.com" }
+]
+license = { file="LICENSE" }
+dependencies = [
+    "pandas",
+    "scikit-learn"
+    # در صورت نیاز کتابخانه‌های دیگر اضافه شود
+]
